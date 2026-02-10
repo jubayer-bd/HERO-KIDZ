@@ -15,7 +15,7 @@ const ProductDetails = ({ product }) => {
   const [quantity, setQuantity] = useState(1);
 
   // Price Calculation
-    const discountedPrice = product.price - product.discount / 100;
+    const discountedPrice = product.price - product.price* product.discount / 100;
 
 
   // Handlers

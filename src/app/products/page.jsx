@@ -3,7 +3,7 @@ import React from "react";
 
 const ProductsPage = () => {
   return (
-    <div className=" mx-auto mt-10 max-w-7xl">
+    <div className=" mx-auto py-10 mt-10 max-w-7xl">
       <Products />
     </div>
   );

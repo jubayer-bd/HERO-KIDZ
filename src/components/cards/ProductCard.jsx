@@ -7,7 +7,7 @@ import Link from "next/link";
 const ProductCard = ({ product }) => {
 console.log(product);
  const hasDiscount = product.price - product.discount / 100;
-  const discountedPrice = product.price - product.discount / 100;
+    const discountedPrice = product.price - product.price* product.discount / 100;
   return (
     <motion.div 
       whileHover={{ y: -8 }}

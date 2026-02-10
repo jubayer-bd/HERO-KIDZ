@@ -10,7 +10,7 @@ const Products = async () => {
   }));
   return (
     <div>
-      <h2 className="text-4xl font-bold mb-4">Our Products</h2>
+      <h2 className="text-4xl font-bold mb-4">Our <span className="text-primary ">Products</span></h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {safeProducts.map((product, idx) => (
           <ProductCard key={idx} product={product} />
