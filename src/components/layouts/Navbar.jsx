@@ -7,13 +7,14 @@ const Navbar = () => {
   const nav = (
     <>
       <NavLink href="/">Home</NavLink>
+      <NavLink href="/products">Products</NavLink>
       <NavLink href="/about">About</NavLink>
       <NavLink href="/contact">Contact</NavLink>
     </>
   );
   return (
     <nav>
-      <div className="navbar bg-base-100 ">
+      <div className="navbar bg-base-100 container mx-auto sticky top-0 z-50 shadow-md rounded-lg">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

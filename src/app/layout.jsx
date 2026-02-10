@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <header className="py-2 ">
           <Navbar  />
         </header>
-        {children}
+       <main className="py-2  min-h-[calc(100vh-18.5rem)]">{children}</main>
         <Footer />
       </body>
     </html>
